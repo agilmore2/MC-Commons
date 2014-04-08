@@ -1,6 +1,6 @@
 package eu.ha3.mc.haddon.litemod;
 
-import net.minecraft.util.IChatComponent;
+import net.minecraft.src.ChatMessageComponent;
 
 import com.mumfrey.liteloader.ChatListener;
 
@@ -31,7 +31,7 @@ public class LiteChat extends LiteBase implements OperatorChatWatcher, ChatListe
 	}
 	
 	@Override
-	public void onChat(IChatComponent chat, String message)
+	public void onChat(ChatMessageComponent chat, String message)
 	{
 		if (this.suChat && this.enableChat)
 		{

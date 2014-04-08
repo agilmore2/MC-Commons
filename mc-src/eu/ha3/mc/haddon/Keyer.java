@@ -1,6 +1,6 @@
 package eu.ha3.mc.haddon;
 
-import net.minecraft.client.settings.KeyBinding;
+import net.minecraft.src.KeyBinding;
 
 /*
 --filenotes-placeholder

@@ -1,6 +1,6 @@
 package eu.ha3.mc.haddon.supporting;
 
-import net.minecraft.util.IChatComponent;
+import net.minecraft.src.ChatMessageComponent;
 
 /* x-placeholder-wtfplv2 */
 
@@ -12,6 +12,6 @@ public interface SupportsChatEvents
 	 * @param chat
 	 * @param message
 	 */
-	public void onChat(IChatComponent chat, String message);
+	public void onChat(ChatMessageComponent chat, String message);
 	
 }

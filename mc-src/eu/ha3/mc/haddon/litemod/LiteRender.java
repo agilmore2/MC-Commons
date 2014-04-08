@@ -1,7 +1,7 @@
 package eu.ha3.mc.haddon.litemod;
 
-import net.minecraft.client.gui.GuiScreen;
-import net.minecraft.client.renderer.entity.Render;
+import net.minecraft.src.GuiScreen;
+import net.minecraft.src.Render;
 
 import com.mumfrey.liteloader.RenderListener;
 import com.mumfrey.liteloader.util.ModUtilities;

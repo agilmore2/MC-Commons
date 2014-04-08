@@ -1,6 +1,6 @@
 package eu.ha3.mc.haddon.supporting;
 
-import net.minecraft.client.gui.GuiScreen;
+import net.minecraft.src.GuiScreen;
 
 /* x-placeholder-wtfplv2 */
 

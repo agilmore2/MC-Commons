@@ -1,6 +1,6 @@
 package eu.ha3.mc.haddon.supporting;
 
-import net.minecraft.network.play.client.C17PacketCustomPayload;
+import net.minecraft.src.Packet250CustomPayload;
 
 /* x-placeholder-wtfplv2 */
 
@@ -11,6 +11,6 @@ public interface SupportsIncomingMessages
 	 * 
 	 * @param message
 	 */
-	public void onIncomingMessage(C17PacketCustomPayload message);
+	public void onIncomingMessage(Packet250CustomPayload message);
 	
 }

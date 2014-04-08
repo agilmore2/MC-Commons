@@ -1,6 +1,6 @@
 package eu.ha3.mc.convenience;
 
-import net.minecraft.client.Minecraft;
+import net.minecraft.src.Minecraft;
 
 /* x-placeholder-wtfplv2 */
 

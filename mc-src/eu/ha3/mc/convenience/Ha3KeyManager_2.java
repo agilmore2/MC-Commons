@@ -3,7 +3,7 @@ package eu.ha3.mc.convenience;
 import java.util.HashMap;
 import java.util.Map;
 
-import net.minecraft.client.settings.KeyBinding;
+import net.minecraft.src.KeyBinding;
 import eu.ha3.mc.haddon.Keyer;
 import eu.ha3.mc.haddon.supporting.SupportsTickEvents;
 
@@ -43,7 +43,7 @@ public class Ha3KeyManager_2 implements SupportsTickEvents
 	{
 		for (KeyBinding bind : this.keys.keySet())
 		{
-			if (bind.getIsKeyPressed())
+			if (bind.isPressed())
 			{
 				int oldVal = this.state.get(bind);
 				this.state.put(bind, oldVal + 1);

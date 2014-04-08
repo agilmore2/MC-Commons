@@ -2,7 +2,7 @@ package eu.ha3.mc.haddon.litemod;
 
 import java.io.File;
 
-import net.minecraft.client.Minecraft;
+import net.minecraft.src.Minecraft;
 
 import com.mumfrey.liteloader.InitCompleteListener;
 import com.mumfrey.liteloader.LiteMod;

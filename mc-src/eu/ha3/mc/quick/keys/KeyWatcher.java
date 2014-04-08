@@ -3,7 +3,7 @@ package eu.ha3.mc.quick.keys;
 import java.util.ArrayList;
 import java.util.List;
 
-import net.minecraft.client.settings.KeyBinding;
+import net.minecraft.src.KeyBinding;
 import eu.ha3.mc.haddon.supporting.SupportsKeyEvents;
 import eu.ha3.mc.haddon.supporting.SupportsTickEvents;
 
@@ -31,7 +31,7 @@ public class KeyWatcher implements SupportsTickEvents
 	public void onTick()
 	{
 		for (KeyBinding key : this.keys)
-			if (key.getIsKeyPressed())
+			if (key.isPressed())
 			{
 				this.watcher.onKey(key);
 			}

@@ -4,9 +4,8 @@ import java.io.File;
 import java.util.HashMap;
 import java.util.Map;
 
-import net.minecraft.client.Minecraft;
-import net.minecraft.client.gui.ScaledResolution;
-import net.minecraft.util.ChatComponentText;
+import net.minecraft.src.Minecraft;
+import net.minecraft.src.ScaledResolution;
 
 import org.lwjgl.input.Keyboard;
 
@@ -171,7 +170,7 @@ public abstract class HaddonUtilityImpl implements Utility
 		{
 			builder.append(o);
 		}
-		Minecraft.getMinecraft().thePlayer.addChatComponentMessage(new ChatComponentText(builder.toString()));
+		Minecraft.getMinecraft().thePlayer.addChatMessage(builder.toString());
 	}
 	
 	@Override

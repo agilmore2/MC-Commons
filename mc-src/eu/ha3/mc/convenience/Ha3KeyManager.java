@@ -3,7 +3,7 @@ package eu.ha3.mc.convenience;
 import java.util.HashMap;
 import java.util.Iterator;
 
-import net.minecraft.client.settings.KeyBinding;
+import net.minecraft.src.KeyBinding;
 
 /* x-placeholder-wtfplv2 */
 
